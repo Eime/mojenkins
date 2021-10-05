@@ -1,0 +1,17 @@
+ol li.hidden, table.pane tr.hidden {
+  display: none !important;
+}
+
+.filterTags a {
+  cursor: pointer;
+  user-select: none;
+  padding: 4px 10px;
+  margin: 0 5px 5px 0;
+  background: #aaa;
+  color: #fff;
+  display: inline-block;
+}
+
+.filterTags a.active {
+  background: #000;
+}
