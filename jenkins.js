@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function (event) { 
   try {
-    if (window.location.href.match(/job\/[\w-]+\/\d+\//i)) {
+    if (window.location.href.match(/job\/[\w-]+\/(\d+|lastSuccessfulBuild)\//i)) {
       var
         ol = document.getElementsBySelector("ol")[0],
         pane = document.getElementsBySelector("table.pane")[0],
